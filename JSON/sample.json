@@ -1,0 +1,17 @@
+[
+	{
+		"ServerList": "MYSERVER1,MYSERVER2",
+		"Description": "Domain Controllers",
+		"Protocols": [
+			{"type": "tcp", "ports": "636,445,88,53,389,3268,135,9389"},
+			{"type": "udp", "ports":"53"}
+		]
+	},
+	{
+		"ServerList": "OTHERSERVER1,OTHERSERVER2",
+		"Description": "Other Servers",
+		"Protocols": [
+			{"type": "tcp", "ports":"8443"}
+		]        
+	}
+]
